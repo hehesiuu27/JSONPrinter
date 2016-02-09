@@ -51,29 +51,29 @@ void DomainExpert::print(JSONPrinter& printer, const SalesOrder& salesOrder)
 
 ###JSONPrinter out-of-the-box support
 The JSONPrinter has out of the box support for
-1. Printing lines with *plain numbers*:
+* Printing lines with *plain numbers*:
 ```C++
 printLinePlain<float>("pi", 3.1415);
 ```
 
-2. Printing lines with *string with quotes*:
+* Printing lines with *string with quotes*:
 ```C++
 printLineQuoted<string>("key", "string-value");
 ```
 
-3. Printing lines with *own defined objects*:
+* Printing lines with *own defined objects*:
 ```C++
 MyClass myObject;
 printLineObject<MyClass>("class", myObject);
 ```
 
-4. Printing *general lists*:
+* Printing *general lists*:
 ```C++
 std::list<int> listOfIntegers { 1, 2, 3, 4 };
 printList<int>("numbers", listOfIntegers);
 ```
 
-5. Printing *general object*:
+* Printing *general object*:
 ```C++
 MyClass myObject;
 print<MyClass>(myObject);
@@ -92,4 +92,4 @@ JSON is a common format to exchange data between programs and projects. So, a go
 
 In this repository you will find an worked out example for a `SalesOrder` scenario, but the `JSONPrinter` files and your customized `DomainExpert` should be sufficient in all other projects.
 
-If you found a bug, have feature requests, pull requests, or other feedback, feel free to create an issue.
+If you found a bug, have feature requests, pull requests, or other feedback, feel free to [create an issue](https://github.com/jsnoeijer/JSONPrinter/issues/new).
