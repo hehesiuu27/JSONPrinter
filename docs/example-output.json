@@ -1,0 +1,30 @@
+{
+  "customer": {
+    "companyname": "My Company",
+    "address": "Mainstreet 123",
+    "city": "Acity"
+  },
+  "paid": 1,
+  "lines": [
+    {
+      "product": "Apples",
+      "amount": 10,
+      "price": 0.49
+    },
+    {
+      "product": "Butter",
+      "amount": 1,
+      "price": 0.99
+    },
+    {
+      "product": "Cheese",
+      "amount": 1,
+      "price": 5.39
+    },
+    {
+      "product": "Eggs",
+      "amount": 10,
+      "price": 1.69
+    }
+  ]
+}
