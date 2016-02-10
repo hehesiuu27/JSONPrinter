@@ -2,7 +2,10 @@
 Just a Simple Object-oriented Natural (JSON) Printer for C++
 
 ##Introduction
-JSONPrinter provides a basic infrastructure to easily generate JSON output in your C++ projects. It is intended to be a *Simple*, *Object oriented* and *Natural* library for generating JSON output.
+JSON is a common format to exchange data between programs and projects. So, a good and easy JSON printing library makes life a lot easier. Therefore, JSONPrinter aims to be Just a Simple Object-oriented Natural JSON Printer for C++.
+
+JSONPrinter provides a basic infrastructure to easily generate JSON output in your C++ projects. It is intended to be *Simple*, thus interation with the JSONPrinter should be one-liners. It's also a *Object oriented* JSONPrinter, because all our domain entities are mapped to Objects / C++ Classes. Finally, we hope that we provide with JSONPrinter a *Natural* library for generating your JSON output.
+
 The JSONPrinter is capable to print *text valued*, *numerical valued* and custom defined *object-valued* properties. Along this basic structures the JSONPrinter provides also functionality to print *complex structures* like *lists of a generic type*.
 
 
@@ -92,4 +95,4 @@ JSON is a common format to exchange data between programs and projects. So, a go
 
 In this repository you will find an worked out example for a `SalesOrder` scenario, but the `JSONPrinter` files and your customized `DomainExpert` should be sufficient in all other projects.
 
-If you found a bug, have feature requests, pull requests, or other feedback, feel free to [create an issue](https://github.com/jsnoeijer/JSONPrinter/issues/new).
+If you found a bug, have feature requests, pull requests, or other feedback, feel free to [create an issue](https://github.com/jsnoeijer/JSONPrinter/issues/new) and colaborate.
